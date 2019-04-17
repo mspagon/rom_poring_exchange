@@ -34,7 +34,7 @@ def get_card_prices():
             for card in results:
                 card_data = dict(card)
                 name = card_data['name']
-                price = card_data['global']['latest']
+                price = card_data['sea']['latest']
                 cards[name] = price
 
             page += 1
