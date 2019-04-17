@@ -111,14 +111,26 @@ def analyze():
         output = os.path.join('output/', date + '.txt')
 
         with open(output, 'w+') as fp:
+            # columns
             fp.write(
-                '{code:<8} {input_colors:<14} {white_chance:<15} {green_chance:<15} {blue_chance:<15} {cost:<16} {ev:<16} {profit:<16}\n'.format(
-                    code='Code', input_colors='Input Colors', white_chance='White Chance', green_chance='Green Chance',
+                '{code:<8} {input_colors:<14} {white_chance:<15} '
+                '{green_chance:<15} {blue_chance:<15} {cost:<16} '
+                '{ev:<16} {profit:<16}\n'.format(
+                    code='Code',
+                    input_colors='Input Colors',
+                    white_chance='White Chance',
+                    green_chance='Green Chance',
                     blue_chance='Blue Chance',
-                    cost='Cost', ev='Expected Value', profit='Profit'))
+                    cost='Cost',
+                    ev='Expected Value',
+                    profit='Profit'))
+
+            # rows
             for r in king_poring_rates:
                 fp.write(
-                    '{code:<8} {input_colors:<14} {white_chance:<15.1%} {green_chance:<15.1%} {blue_chance:<15.1%} {cost:<16,.2f} {ev:<16,.2f} {profit:<16,.2f}\n'.format(
+                    '{code:<8} {input_colors:<14} {white_chance:<15.1%} '
+                    '{green_chance:<15.1%} {blue_chance:<15.1%} {cost:<16,.2f} '
+                    '{ev:<16,.2f} {profit:<16,.2f}\n'.format(
                         code=r['Code'],
                         input_colors=r['Input Colors'],
                         white_chance=r['White Chance'],
@@ -129,11 +141,13 @@ def analyze():
                         profit=r['Profit']
                     ))
 
+            # Cheapest Cards
             fp.write('\n')
             fp.write('Gray Lowest: {} = ${:,}\n'.format(gray_prices[0][0], gray_prices[0][1]))
             fp.write('Green Lowest: {} = ${:,}\n'.format(green_prices[0][0], green_prices[0][1]))
             fp.write('Blue Lowest: {} = ${:,}\n'.format(blue_prices[0][0], blue_prices[0][1]))
 
+            # All Cards
             fp.write('\n')
             fp.write('GRAY CARDS\n')
             fp.write('-' * 20 + '\n')
