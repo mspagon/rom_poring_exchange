@@ -1,0 +1,157 @@
+Code     Input Colors   White Chance    Green Chance    Blue Chance     Cost             Expected Value   Profit          
+300      WWW            19.5%           80.0%           0.5%            1,141,731.00     926,922.79       -214,808.21     
+210      WWG            11.0%           80.0%           9.0%            1,346,215.00     1,192,815.67     -153,399.33     
+120      WGG            7.0%            75.0%           18.0%           1,550,699.00     1,456,108.04     -94,590.96      
+030      GGG            0.0%            75.0%           25.0%           1,755,183.00     1,675,078.65     -80,104.35      
+201      WWB            0.0%            65.0%           35.0%           1,935,495.00     1,951,411.25     15,916.25       
+111      WGB            0.0%            63.0%           37.0%           2,139,979.00     2,006,677.78     -133,301.22     
+021      GGB            0.0%            60.0%           40.0%           2,344,463.00     2,089,577.56     -254,885.44     
+102      WBB            0.0%            32.0%           68.0%           2,729,259.00     2,863,308.86     134,049.86      
+012      GBB            0.0%            30.0%           70.0%           2,933,743.00     2,918,575.38     -15,167.62      
+003      BBB            0.0%            0.0%            100.0%          3,523,023.00     3,747,573.20     224,550.20      
+
+Gray Lowest: Injustice Card = $380,577
+Green Lowest: Gargoyle Card = $585,061
+Blue Lowest: Vitata Card = $1,174,341
+
+GRAY CARDS
+--------------------
+Injustice Card 380,577.00     
+Weak Puppet Card 393,124.00     
+Thief Bug Egg Card 393,945.00     
+Roda Frog Card 395,743.00     
+Thief Bug Card 408,924.00     
+Obeaune Card 410,353.00     
+Poison Spore Card 410,391.00     
+Sting Card 410,894.00     
+Orc Archer Card 414,741.00     
+Bongun Card 415,999.00     
+Andre Card 417,561.00     
+Marina Card 418,020.00     
+Orc Warrior Card 422,669.00     
+Sky Petite Card 423,397.00     
+Isis Card 426,511.00     
+Horong Card 427,345.00     
+Muka Card 427,876.00     
+Bigfoot Card 430,375.00     
+Familiar Card 432,495.00     
+Fabre Card 433,146.00     
+Golem Card 434,624.00     
+Chon Chon Card 438,546.00     
+Lunatic Card 438,784.00     
+Mummy Card 439,315.00     
+Male Thief Bug Card 439,862.00     
+Marionette Card 442,074.00     
+Willow Card 471,941.00     
+Poring Card 495,084.00     
+Picky Card 549,946.00     
+Munak Card 566,725.00     
+Pupa Card 567,300.00     
+Mimic Card 569,923.00     
+Marduk Card 701,998.00     
+Rocker Card 769,673.00     
+Flora Card 970,668.00     
+Vadon Card 1,376,052.00   
+Goblin Card 1,812,830.00   
+Peco Peco Egg Card 3,758,591.00   
+
+GREEN CARDS
+--------------------
+Gargoyle Card 585,061.00     
+Raydric Archer Card 609,096.00     
+Punk Card 617,709.00     
+Orc Lady Card 622,064.00     
+Anolian Card 623,024.00     
+Magnolia Card 626,978.00     
+Female Thief Bug Card 634,511.00     
+Khalitzburg Card 638,387.00     
+Carat Card 638,927.00     
+Matyr Card 642,347.00     
+Dark Priest Card 643,242.00     
+Elder Card 644,858.00     
+Wild Rose Card 652,598.00     
+Kobold Archer Card 655,203.00     
+Dokebi Card 655,269.00     
+Spore Card 657,475.00     
+Cruiser Card 658,243.00     
+Cramp Card 658,921.00     
+Nightmare Card 659,366.00     
+Joker Card 663,461.00     
+Wolf Card 674,963.00     
+Hunter Fly Card 677,288.00     
+Savage Card 682,717.00     
+Argiope Card 684,883.00     
+Wraith Card 691,768.00     
+Sohee Card 693,829.00     
+Hornet Card 696,928.00     
+Cookie Card 711,440.00     
+Gingerbread Man Card 712,141.00     
+Orc Zombie Card 712,180.00     
+Skeleton Card 714,796.00     
+Ancient Clock Card 724,371.00     
+Brilight Card 734,337.00     
+Elder Willow Card 748,266.00     
+Rideword Card 767,080.00     
+Tarou Card 789,873.00     
+Metaller Card 811,979.00     
+Nine Tail Card 824,592.00     
+Greatest General Card 854,318.00     
+Orc Skeleton Card 860,352.00     
+Green Petite Card 874,256.00     
+Black Witch Card 881,663.00     
+Wanderer Card 884,617.00     
+High Orc Card 1,059,807.00   
+Zipper Bear Card 1,072,841.00   
+Giearth Card 1,116,291.00   
+Alarm Card 1,145,190.00   
+Yoyo Card 1,288,290.00   
+Meta Ant Egg Card 1,401,162.00   
+Myst Case Card 1,456,069.00   
+Mandragora Flower Card 1,722,200.00   
+Drainliar Card 3,708,839.00   
+Marc Card 3,888,065.00   
+Menblatt Card 5,095,214.00   
+
+BLUE CARDS
+--------------------
+Vitata Card 1,174,341.00   
+Pirate Skeleton Card 1,224,479.00   
+Marse Card 1,262,638.00   
+Luciola Vespa Card 1,267,828.00   
+Phen Card 1,292,684.00   
+Eggyra Card 1,328,048.00   
+Goblin Archer Card 1,332,429.00   
+Dustiness Card 1,342,342.00   
+Swordfish Card 1,383,046.00   
+Teddy Bear Card 1,392,496.00   
+Myst Card 1,443,119.00   
+Sandman Card 1,558,657.00   
+Succubus Card 1,598,332.00   
+Hode Card 1,600,837.00   
+Evil Druid Card 1,623,138.00   
+Bathory Card 1,647,764.00   
+Kobold Card 1,737,054.00   
+Pasana Card 1,742,727.00   
+Steam Goblin Card 1,746,088.00   
+Creamy Card 1,770,075.00   
+Dark Shadow Card 1,824,861.00   
+Peco Peco Card 1,829,120.00   
+Stem Worm Card 1,838,595.00   
+Ferus Card 1,846,019.00   
+Soldier Skeleton Card 1,955,354.00   
+Draco Card 2,120,875.00   
+Aqua Elemental Card 2,322,267.00   
+Incubus Card 2,885,994.00   
+Whisper Card 5,307,802.00   
+Marine Sphere Card 5,924,651.00   
+Thara Frog Card 5,944,856.00   
+Desert Wolf Card 6,239,581.00   
+Mandragora Card 6,479,132.00   
+Deviruchi Card 6,786,305.00   
+Wind Ghost Card 6,892,194.00   
+Hydra Card 10,057,580.00  
+Baphomet Jr. Card 10,585,570.00  
+Raydric Card 11,269,620.00  
+Archer Skeleton Card 13,657,274.00  
+Minorous Card 14,667,156.00  
+
