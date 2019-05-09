@@ -6,7 +6,7 @@ import json
 import os
 import requests
 
-cached_prices = 'cache/card_prices.txt'
+cached_prices = os.path.join('..', 'cache', 'card_prices.txt')
 
 
 def get_card_prices():
@@ -21,10 +21,15 @@ def get_card_prices():
     for card_num in card_range:
         url = "https://www.romexchange.com/api?type={}".format(card_num)
 
+        # Added headers to bypass RomExchange Security
+        headers = {
+            'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.131 Safari/537.36'
+        }
+
         page = 1
         while True:
             print('making request:', url + '&page=' + str(page))
-            r = requests.get(url + '&page=' + str(page))
+            r = requests.get(url + '&page=' + str(page), headers=headers)
 
             results = r.json()
 
@@ -34,7 +39,7 @@ def get_card_prices():
             for card in results:
                 card_data = dict(card)
                 name = card_data['name']
-                price = card_data['sea']['latest']
+                price = card_data['global']['latest']
                 cards[name] = price
 
             page += 1
@@ -108,7 +113,7 @@ def analyze():
     def write_output():
         date = str(datetime.now().date())
 
-        output = os.path.join('output/', date + '.txt')
+        output = os.path.join('..', 'output', date + '.txt')
 
         with open(output, 'w+') as fp:
             # columns
